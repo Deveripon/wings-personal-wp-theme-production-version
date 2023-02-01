@@ -1,0 +1,44 @@
+.navigation-section {
+	background-color: $main_color;
+	line-height: 50px;
+	.nav-item {
+		margin: 0px 10px;
+	}
+	a.nav-link {
+		color: #fff;
+		font-weight: 400;
+		&:hover {
+			color: $text_info;
+		}
+	}
+	a.nav-link.active {
+		color: $text_info;
+		font-weight: 400;
+	}
+}
+.branding {
+	a {
+		color: #fff;
+		font-weight: 600;
+		font-size: 25px;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
+.dropdown-menu {
+	transition: all 0.3s ease-in-out;
+}
+.nav-item {
+	&:hover {
+		.dropdown-menu {
+			display: block !important;
+		}
+	}
+}
+.navbar-toggler,
+span.navbar-toggler-icon {
+	color: antiquewhite !important;
+}

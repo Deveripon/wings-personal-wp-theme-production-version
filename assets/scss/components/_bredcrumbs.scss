@@ -1,0 +1,41 @@
+.page-bredcrumbs {
+	height: 300px;
+	text-align: center;
+	background-size: 100% 100%;
+	object-fit: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	position: relative;
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
+		width: 100%;
+		text-align: left;
+		.page-identifier {
+			margin-top: 100px;
+			color: #fff;
+			font-family: "Montserrat", sans-serif;
+			margin-bottom: 20px;
+			h2 {
+				color: #fff;
+				font-family: "Montserrat", sans-serif;
+				pointer-events: none;
+			}
+			a {
+				color: #fff;
+				font-family: "Montserrat", sans-serif;
+				text-decoration: none;
+			}
+			span a {
+				color: #03a9f5;
+				pointer-events: none;
+			}
+			span {
+				margin-left: 10px;
+			}
+		}
+	}
+}

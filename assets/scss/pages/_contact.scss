@@ -1,0 +1,38 @@
+.contact-us-section {
+	padding-top: 50px;
+	text-align: center;
+	background-size: 100% 100%;
+	object-fit: cover;
+	background-position: center center;
+	background-attachment: scroll;
+
+	h2 {
+		@include header;
+		color: $font_color;
+	}
+	.saparator {
+		@include saparator;
+		margin-bottom: 50px;
+	}
+}
+.address-section {
+	height: 300px;
+	margin-bottom: 50px;
+	border: 1px solid transparent;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	iframe {
+		height: 250px;
+	}
+}
+.contact-form {
+	border: 1px solid transparent;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 70px;
+	border-radius: 5px;
+	h4 {
+		margin-bottom: 30px;
+	}
+}

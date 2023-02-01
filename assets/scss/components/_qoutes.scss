@@ -1,0 +1,53 @@
+.qoutes {
+	text-align: center;
+	.qoutes-item {
+		margin-top: 50px;
+		h4 {
+			font-size: 2rem;
+			color: #fff;
+			font-weight: 400;
+			letter-spacing: 1px;
+			font-family: "Montserrat", sans-serif;
+			line-height: 2.5rem;
+			@media all and (max-width: 992px) {
+				font-size: 1.5rem;
+			}
+			@media all and (max-width: 768px) {
+				font-size: 20px;
+			}
+			@media all and (max-width: 525px) {
+				font-size: 16px;
+				line-height: 25px;
+			}
+			i {
+				color: #fff;
+				font-size: 2rem;
+				@media all and (max-width: 992px) {
+					font-size: 1.5rem;
+				}
+				@media all and (max-width: 768px) {
+					font-size: 20px;
+				}
+				@media all and (max-width: 525px) {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.owl-dots {
+		.owl-dot {
+			height: 2px;
+			width: 25px;
+			background-color: #03a9f5;
+			margin: 5px;
+			margin-top: 60px;
+			margin-bottom: 10px;
+		}
+		.active {
+			background-color: #fff;
+		}
+	}
+	.all-link-btn {
+		margin-bottom: 0px;
+	}
+}

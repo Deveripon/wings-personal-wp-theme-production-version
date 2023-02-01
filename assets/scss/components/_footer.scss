@@ -1,0 +1,119 @@
+.footer-section{
+    padding:50px 0px;
+    background-color: $main_color;
+    .footer-logo {
+        a{
+            text-decoration: none;
+            h3{
+            	color: #fff;
+				text-decoration: none;
+				font-family: "Raleway", sans-serif;
+				font-weight: 600;
+				letter-spacing: 1px;
+				font-size: 25px;
+        }
+        }
+    }
+    .address{
+        p{
+        color: #fff;
+ 	    font-family: "Poiret One", cursive;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 35px;
+        letter-spacing: 1px
+        }
+    }
+    .quick-links{
+       h3{
+        color: #fff;
+        font-weight: 300;
+        font-size: 25px;
+        font-family: "Raleway", sans-serif;
+
+       }
+       .saparator {
+		border: none;
+	    height: 2px;
+	    width: 120px;
+	    background: #6c757d;
+	    margin-left:50px;
+	    position: relative;
+        margin-bottom: 25px;
+
+	&::before {
+		content: "";
+		display: block;
+		height: 2px;
+		width: 120px;
+		background: #6c757d;
+		position: absolute;
+		left: -70px;
+	}
+	&::after {
+		content: "";
+		display: block;
+		height: 2px;
+		width: 120px;
+		background: #6c757d;
+		position: absolute;
+		right: -70px;
+	}
+	}
+    }
+    .links{
+        width: 300px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 30px;
+            li{
+             margin-right: 30px;
+            margin-left:0px;
+            margin-bottom: 10px;
+            line-height: 25px;
+            }
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-size:18px;
+            font-family: "Poiret One", cursive;
+            text-align: left;
+            transition: all 0.3s;
+            &:hover{
+                color: $text_info;
+            }
+          
+
+        }
+    }
+    .list-item{
+        label{
+            color: #fff;   
+        }
+        p{
+            color: #fff;
+             font-family: "Poiret One", cursive;
+            font-size: 17px;
+        }
+    }
+
+}
+.copyright-section{
+    background-color: $secondary_color;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    p{
+        font-weight: 200;
+        font-size: 16px;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

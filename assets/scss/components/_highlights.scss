@@ -1,0 +1,39 @@
+.highlights-section {
+	text-align: center;
+	.news-card {
+		text-align: left;
+		margin-top: 60px;
+
+		.card-image {
+			margin-bottom: 20px;
+			height: 230px;
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.details {
+			i,
+			p {
+				color: $main_color;
+				font-size: 14px;
+			}
+		}
+		.card-text {
+			h4 {
+				color: #999;
+				font-size: 15px;
+				font-weight: 400;
+				line-height: 170%;
+				font-family: "Montserrat", sans-serif;
+			}
+		}
+		.read-more {
+			@include readMore;
+			margin-left: 0;
+		}
+		.card-body {
+			padding-bottom: 40px;
+		}
+	}
+}

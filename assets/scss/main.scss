@@ -1,0 +1,41 @@
+//Import all sass file
+
+//import utility folder
+@import "./utils/variables";
+@import "./utils/mixins";
+
+//import base folder
+@import "./base/reset";
+@import "./base/typography";
+
+//import Component folder
+@import "./components/slider";
+@import "./components/navigation";
+@import "./components/featuredPost";
+@import "./components/covid";
+@import "./components/blogpost";
+@import "./components/qoutes";
+@import "./components/awards";
+@import "./components/highlights";
+@import "./components/publications";
+@import "./components/gallery";
+@import "./components/social";
+@import "./components/footer";
+@import "./components/scrolltop";
+@import "./components/bredcrumbs";
+@import "./components/news";
+
+//import pages folder
+@import "./pages/home";
+@import "./pages/blog";
+@import "./pages/resume";
+@import "./pages/contact";
+@import "./pages/books";
+@import "./pages/singlebook";
+@import "./pages/awardpage";
+@import "./pages/certificate";
+@import "./pages/recognization";
+@import "./pages/singleaward";
+//import theme folder
+@import "./theme/app";
+@import "./theme/theme";

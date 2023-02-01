@@ -1,0 +1,30 @@
+.social-media {
+	text-align: center;
+
+	.social-section {
+		margin: 60px auto;
+		text-align: left;
+		.facebook {
+			i {
+				@include social;
+			}
+		}
+		.twitter {
+			i {
+				@include social;
+				background-color: #1c93e4;
+			}
+		}
+		.linkedin {
+			i {
+				@include social;
+				background-color: #0a66c2;
+			}
+		}
+		.instagram {
+			i {
+				@include social;
+			}
+		}
+	}
+}

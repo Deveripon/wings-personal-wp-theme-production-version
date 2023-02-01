@@ -1,0 +1,67 @@
+.workshop-gallery {
+	columns: 5 250px !important;
+	column-gap: 1px;
+	margin: 0px !important;
+	img {
+		max-width: 100%;
+	}
+}
+.gallery-section {
+	text-align: center;
+	background-size: 100% 100%;
+	object-fit: cover;
+	background-position: center center;
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 60px;
+		.gal-item {
+			width: 200px;
+			height: 200px;
+			overflow: hidden !important;
+			position: relative;
+			margin: 2px;
+			&:hover .overlay {
+				top: 0%;
+			}
+			/* border: 1px solid $secondary_color; */
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		.overlay {
+			height: 200px;
+			width: 200px;
+			background: rgba(8, 182, 212, 0.815);
+			position: absolute;
+			top: 100%;
+			transition: all 0.5s;
+			.links {
+				display: flex;
+				justify-content: center;
+				margin: 50% 20px;
+				gap: 10px;
+
+				cursor: pointer;
+				a {
+					text-decoration: none;
+					color: $text_info;
+					background: #fff;
+					font-size: 10px;
+					height: 30px;
+					width: 30px;
+					line-height: 30px;
+					border-radius: 100px;
+					transition: all 0.3s;
+					&:hover {
+						background: $text_info;
+						color: #fff !important;
+					}
+				}
+			}
+		}
+	}
+}

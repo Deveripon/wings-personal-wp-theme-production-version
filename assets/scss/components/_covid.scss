@@ -1,0 +1,29 @@
+.covid-alert-section {
+	.alert-section {
+		h4 {
+			color: $text_success;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 1rem;
+			line-height: 1.2;
+			text-align: left;
+			letter-spacing: 0.5px;
+		}
+		h5 {
+			color: $text_info;
+			font-size: 20px;
+			font-weight: 400;
+			margin-bottom: 1rem;
+			line-height: 1.2;
+			text-align: left;
+			letter-spacing: 0.5px;
+		}
+		p {
+			font-family: "Montserrat", sans-serif;
+			font-size: 16px;
+			line-height: 27px;
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+	}
+}

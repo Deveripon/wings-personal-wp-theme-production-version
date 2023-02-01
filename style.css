@@ -1,0 +1,210 @@
+/*
+Theme Name : Wings Personal
+Theme URI: https://github.com/deveripon/wordpress
+Author: Shahadat Hussain Ripon
+Author URI: https://github.com/deveripon/
+Description: This is the personal bio theme of wings group.the owner of this theme is Shahadat Hussain Ripon .This theme can be used as Personal Biography.It is Highly Customizable and multy functional theme.
+Tags: personal,biography,multipurpose,theme,wordpress custom-background,custom-color,theme-background,custom-logo,theme-logo,custom-header
+Version: 1.1
+Requires at least: 5.0
+Tested on : 5.4
+Requires PHP: 7.0
+Text Domain: wingspersonal
+
+*/
+.post-details li {
+    margin-right: 10px;
+}
+
+.post-details li a {
+    margin-right: 0px !important;
+}
+
+
+.post-media {
+    max-width: 600px !important;
+    height: 400px !important;
+}
+
+.post-media>img {
+    height: 100% !important;
+}
+
+a.scroll_top {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: #028322 !important;
+    line-height: 50px !important;
+    margin: auto;
+    text-align: center !important;
+    border-radius: 50%;
+}
+
+a.scroll_top:hover {
+    background-color: #03a9f5 !important;
+}
+
+a.scroll_top svg {
+    color: antiquewhite !important;
+}
+
+#commentform textarea {
+    display: block;
+    border: none !important;
+    outline: 1px solid #ccc;
+
+}
+
+#commentform input {
+    padding: 5px 20px;
+    background-color: #03a9f5;
+    border: none !important;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.wid-post-media>img {
+    height: 200px !important;
+    object-fit: cover;
+}
+
+.p-4 {
+    padding: 0 !important;
+}
+
+.news-card ul {
+    padding: 0 !important;
+    vertical-align: middle !important;
+}
+
+.news-card i,
+.news-card svg {
+    color: #2d58a7 !important;
+}
+
+.passage h3 i {
+    color: #2d58a7;
+}
+
+.passage h3 {
+    color: #2d58a7;
+    margin-bottom: 20px;
+}
+
+.passage {
+    margin: 30px auto;
+}
+
+.social-box a {
+    background-color: #3b5998;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.social-box a svg {
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.social-box a svg:hover {
+    color: #03a9f5;
+    transform: translateY(360deg);
+}
+
+
+
+
+
+
+/* //Top nav section css design */
+
+.top-nav-section {
+    background: rgba(44, 44, 44, 0.4) !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+
+.top-nav-section ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 450px) {
+    .top-nav-section ul {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .top-nav-section ul li {
+        margin-left: 20px;
+    }
+}
+
+.top-nav-section span {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.top-nav-section ul li a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.top-nav-section ul .facebook a {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.top-nav-section ul .facebook a:hover {
+    background-color: #fff;
+    color: #3b5998;
+}
+
+.top-nav-section ul .twitter a {
+    background-color: #00acee;
+    color: #fff;
+}
+
+.top-nav-section ul .twitter a:hover {
+    background-color: #fff;
+    color: #00acee;
+}
+
+.top-nav-section ul .linkedin a {
+    background-color: #0A66C2;
+    color: #fff;
+}
+
+.top-nav-section ul .linkedin a:hover {
+    background-color: #fff;
+    color: #0A66C2;
+}
+
+.top-nav-section ul .email a {
+    background-color: #068f4a;
+    color: #fff;
+}
+
+.top-nav-section ul .email a:hover {
+    background-color: #fff;
+    color: #068f4a;
+}

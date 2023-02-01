@@ -1,0 +1,28 @@
+.resume-sidebar {
+	@media all and (max-width: 1200px) {
+		display: none;
+	}
+
+	.post-widget {
+		background: $bg_color;
+		padding: 30px !important;
+		margin-bottom: 50px;
+		border-radius: 3px;
+		h2 {
+			color: $secondary_color;
+			font-size: 20px;
+			font-weight: 300;
+			font-family: "Montserrat", sans-serif;
+		}
+		.read-more {
+			@include readMore;
+			font-size: 14px !important;
+		}
+	}
+}
+.professional-summery {
+	width: 900px !important;
+	@media all and (max-width: 992px) {
+		width: 100% !important;
+	}
+}

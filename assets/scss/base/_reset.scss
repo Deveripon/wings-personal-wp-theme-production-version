@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none !important;
+	font-family: "Montserrat", sans-serif;
+}
+ul {
+	margin: 0 !important;
+}
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.section-title {
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-left: 5px solid $main_color;
+	margin-bottom: 50px;
+	font-family: "Montserrat", sans-serif;
+}
+.section-heading {
+	.title {
+		text-transform: uppercase;
+		font-weight: 500;
+		font-family: "Montserrat", sans-serif;
+		letter-spacing: 1px;
+		font-size: 2.5rem;
+		text-align: center;
+		display: block;
+	}
+}
+.saparator {
+	@include saparator;
+}
+section.workshop {
+	padding-bottom: 50px;
+}

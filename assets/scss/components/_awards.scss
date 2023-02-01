@@ -1,0 +1,130 @@
+.awards-achivement {
+	text-align: center;
+	.award_slider {
+		max-width: 70%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #395b64;
+		border-radius: 10px;
+		position: relative;
+		box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+			rgba(0, 0, 0, 0.23) 0px 6px 6px;
+		transition: all 0.5s;
+		overflow: hidden;
+		.slide-image {
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			@media all and (max-width: 600px) {
+				height: 220px;
+			}
+
+			img {
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+				@media all and (max-width: 600px) {
+					height: 220px;
+					object-fit: cover;
+				}
+			}
+		}
+		.slide-content {
+			@media all and (max-width: 1000px) {
+				max-height: 250px;
+				overflow: hidden;
+			}
+			@media all and (max-width: 770px) {
+				margin: auto;
+				display: flex;
+				justify-content: center;
+				margin-top: 20%;
+			}
+			@media all and (max-width: 510px) {
+				margin: 0;
+			}
+			h4 {
+				color: #fff;
+				font-size: 26px;
+				font-weight: 500;
+				font-family: "Montserrat", sans-serif;
+				text-align: left;
+				text-transform: uppercase;
+				@media all and (max-width: 1199px) {
+					font-size: 16px;
+				}
+				@media all and (max-width: 555px) {
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+			p {
+				font-size: 16px;
+				text-align: left;
+				text-transform: capitalize;
+				@media all and (max-width: 1199px) {
+					font-size: 14px;
+				}
+				@media all and (max-width: 1000px) {
+					font-size: 14px;
+					line-height: 20px;
+				}
+				@media all and (max-width: 770px) {
+					display: none;
+				}
+			}
+		}
+		.owl-nav {
+			display: none;
+			transition: all 0.4s !important;
+			transition-delay: 400ms;
+			.owl-next {
+				position: absolute;
+				top: 37%;
+				right: 10px;
+				height: 50px;
+				width: 50px;
+				font-size: 70px;
+				color: #fff;
+			}
+			.owl-prev {
+				position: absolute;
+				top: 37%;
+				left: 10px;
+				height: 50px;
+				width: 50px;
+				font-size: 70px;
+				color: #fff;
+			}
+		}
+		.owl-dots {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 85%;
+			margin: auto;
+			.owl-dot {
+				background: #395b64;
+				height: 2px;
+				width: 25px;
+				margin: 5px;
+			}
+			.active {
+				background-color: aliceblue;
+			}
+		}
+		&:hover {
+			.owl-nav {
+				display: block;
+			}
+		}
+		@media all and (max-width: 992px) {
+			max-width: 80%;
+		}
+		@media all and (max-width: 600px) {
+			max-width: 95%;
+			height: 220px;
+		}
+	}
+}

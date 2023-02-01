@@ -1,0 +1,33 @@
+a {
+	text-decoration: none;
+}
+.scroll_top {
+	position: fixed;
+	bottom: 100px;
+	right: 30px;
+	text-decoration: none;
+	display: none;
+
+	i {
+		color: #fff;
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		background-color: $text_success;
+		border-radius: 100%;
+		transition: all 0.3s;
+		&:hover {
+			background-color: $text_info;
+		}
+	}
+}
+.scroll_top_active {
+	display: block;
+}
+
+html {
+	scroll-behavior: smooth;
+}

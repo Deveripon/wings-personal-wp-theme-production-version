@@ -309,3 +309,8 @@ require_once 'inc/shortcode/vs_addressmap.php';
  */
  require_once 'libs/redux/ReduxCore/framework.php';
  require_once 'libs/redux/sample/config.php';
+
+ /**
+  * Required Tgm plugin activation framework
+ */
+require_once 'libs/tgmp/config.php';
